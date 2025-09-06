@@ -1,5 +1,3 @@
-!!DO NOT EDIT!!
-
 -- Client-side healing function
 RegisterNetEvent("heal:client")
 AddEventHandler("heal:client", function()
@@ -12,4 +10,5 @@ AddEventHandler("heal:client", function()
         print("You have been healed!")
     end
 end)
+
 
