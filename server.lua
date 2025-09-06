@@ -1,5 +1,3 @@
-!!DO NOT EDIT!!
-
 -- Server-side command to trigger heal
 RegisterCommand("heal", function(source, args, rawCommand)
     local src = source
@@ -13,3 +11,4 @@ RegisterCommand("heal", function(source, args, rawCommand)
     -- Heal the player who typed /heal
     TriggerClientEvent("heal:client", src)
 end, false) -- "false" = anyone can use. Change to true and use ACE perms for admins only.
+
